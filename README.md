@@ -28,15 +28,10 @@ Memory-Management-Simulator/
  │   ├ vm/
  │   └ main_system.cpp
  ├ Test-Artifacts/
- ├ docs/
- │   └ DesignDocument.pdf
- ├ demo/
- │   └ DemoVideo.mp4
+ ├ Project_report.pdf
+ ├ demo_vdo.mp4
  ├ build.bat
- ├ run.bat
- ├ Makefile
  ├ README.md
- └ .gitignore
 ```
 
 ---
