@@ -54,7 +54,7 @@ build.bat
 
 ---
 
-### 🔹 Linux / MacOS
+### Linux / MacOS
 
 Make sure `g++` is installed, then run:
 
@@ -64,7 +64,7 @@ make
 
 ---
 
-## ▶️ Running the Simulator
+## Running the Simulator
 
 ### Windows:
 
@@ -80,7 +80,7 @@ make
 
 ---
 
-## 🖥️ CLI Commands
+## CLI Commands
 
 ```
 help
