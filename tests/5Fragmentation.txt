@@ -1,0 +1,20 @@
+--------
+Commands
+--------
+init memory 1024
+malloc 200
+malloc 300
+free 1
+malloc 150
+dump memory
+stats
+
+
+---------------
+Expected output
+---------------
+[0   - 149] USED (id=3)
+[150 - 199] FREE
+[200 - 499] USED (id=2)
+[500 - 1023] FREE
+

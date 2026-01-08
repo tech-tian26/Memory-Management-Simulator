@@ -1,0 +1,21 @@
+--------
+Commands
+--------
+init memory 1024
+access 10
+access 12
+access 10
+access 4000
+access 12
+stats
+
+
+---------------
+Expected output
+---------------
+Hit L1: 3
+Miss L1: 2
+Hit L2: 0
+Miss L2: 2
+Hit Rate L1: 60%
+Hit Rate L2: 0%

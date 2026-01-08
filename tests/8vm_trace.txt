@@ -1,0 +1,17 @@
+--------
+Commands
+--------
+init memory 1024
+access 0
+access 4096
+access 8192
+access 0
+stats
+
+
+---------------
+Expected output
+---------------
+Page Faults = 1
+Page Hits = 8
+Fault Rate = 11.1111%

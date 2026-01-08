@@ -1,0 +1,19 @@
+---------
+Commands
+---------
+init memory 1024
+malloc 100
+malloc 200
+malloc 50
+dump memory
+stats
+
+---------------
+Expected Output
+---------------
+[0 - 99] USED (id=1)
+[100 - 299] USED (id=2)
+[300 - 349] USED (id=3)
+[350 - 1023] FREE
+Utilization ≈ 34.18%
+Success Rate = 100%

@@ -1,0 +1,16 @@
+--------
+Commands
+--------
+init memory 1024
+set allocator buddy
+malloc 128
+malloc 128
+free 1
+free 2
+dump memory
+
+
+---------------
+Expected layout
+---------------
+Block (0–127) + Block (128–255) merge → Free block (0–255)

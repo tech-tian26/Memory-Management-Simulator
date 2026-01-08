@@ -1,0 +1,25 @@
+--------
+Commands
+--------
+init memory 1024
+malloc 100
+set allocator best
+malloc 120
+set allocator worst
+malloc 300
+set allocator first
+malloc 50
+dump memory
+stats
+
+
+---------------
+Expected output
+---------------
+
+| Step       | Allocator         | Behavior                                   |
+| ---------- | ----------------- | ------------------------------------------ |
+| malloc 100 | First Fit default | alloc from start                           |
+| malloc 120 | Best Fit          | picks smallest hole                        |
+| malloc 300 | Worst Fit         | picks largest region                       |
+| malloc 50  | First Fit         | next available regardless of fragmentation |

@@ -1,0 +1,23 @@
+--------
+Commands
+--------
+init memory 1024
+set allocator best_fit
+malloc 200
+malloc 300
+malloc 100
+free 1           
+malloc 150       
+dump memory
+stats
+
+
+---------------
+Expected output
+---------------
+[0 - 149] USED (id=4)
+[150 - 199] FREE
+[200 - 499] USED (id=2)
+[500 - 599] USED (id=3)
+[600 - 1023] FREE
+

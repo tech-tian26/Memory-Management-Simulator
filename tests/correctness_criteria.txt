@@ -1,0 +1,10 @@
+-> Allocated block always stored in free space
+-> No overlapping allocated segments
+-> After freeing blocks, adjacent memory coalesced (non-buddy) or merged (buddy)
+-> Stats reflect:
+   - Total Memory = free + used
+   - Success Rate = successes / total requests
+-> Buddy always allocates power-of-2 blocks
+-> Cache hit must avoid VM access
+-> Virtual access must go:
+    VA → Page Table → Frame → Cache → Memory
