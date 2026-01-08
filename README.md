@@ -37,7 +37,7 @@ Memory-Management-Simulator/
 ---
 
 ## Build Instructions
-
+### Clone the Repository
 ### Windows (MinGW / g++)
 
 Open **Command Prompt** in project root and run:
@@ -128,10 +128,15 @@ Project_report.pdf
 Demo video is available in:
 
 ```
-demo_vdo.mp4(clik on "view raw" option as file is large enough to get load)
-or find the video at- https://drive.google.com/drive/folders/1fndrJzhz-JHSYUSuq1rC4orSa9YvbM2Z 
+demo_vdo.mp4
 ```
-
+Due to GitHub file size limits, the demo video may not preview directly.
+Please either click **"View Raw"** to download the video.
+OR
+- Watch / download the video from Google Drive:
+```
+https://drive.google.com/drive/folders/1fndrJzhz-JHSYUSuq1rC4orSa9YvbM2Z
+```
 ---
 
 ## System Architecture
