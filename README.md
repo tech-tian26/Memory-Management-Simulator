@@ -1,6 +1,6 @@
 # Memory Management Simulator
 
-A complete Operating-System level **Memory Management Simulator** written in C++.
+A complete CLI Operating-System level **Memory Management Simulator** written in C++.
 
 This project simulates:
 
@@ -128,7 +128,8 @@ Project_report.pdf
 Demo video is available in:
 
 ```
-demo_vdo.mp4
+demo_vdo.mp4(clik on "view raw" option as file is large enough to get load)
+or find the video at- https://drive.google.com/drive/folders/1fndrJzhz-JHSYUSuq1rC4orSa9YvbM2Z 
 ```
 
 ---
